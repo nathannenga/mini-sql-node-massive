@@ -8,7 +8,7 @@ var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-var connectionString = "postgres://postgres:!QAZ2wsx@localhost:5439/sandbox";
+var connectionString = "postgres://gesvntno:MbuIAoOJYdr1oUKcviiUy2vVhmC8w6n6@stampy.db.elephantsql.com:5432/gesvntno";
 
 var massiveInstance = massive.connectSync({connectionString : connectionString})
 
